@@ -139,3 +139,34 @@ margin: 5em 0;
     margin: 5em 3em;
 }
 
+@media screen and (max-width:768px ){
+    .container {
+      display: block; /*pra ficar um encima do outro */
+     background-image: none;
+    }
+ 
+    .container__imagem {
+     width: 50vw;
+    }
+ 
+    .container__caixa{
+     margin: 2em 2em;
+    }
+ 
+    .secundario{
+     margin:0;
+     text-align: center;
+ 
+    }
+ 
+    .secundario__imagem{
+     width: 50vw;
+    }
+ 
+    .dispositivos__lista{
+      display: block;  /* pra nossa lista ficar uma em baixo da outrao  para retirar um display grid ou flex vc coloca o block  que fica um embaixo do outro*/
+    }
+ 
+    .rodape__lista{
+     display: block;
+    }
